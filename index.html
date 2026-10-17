@@ -70,6 +70,21 @@
         padding: 20px 16px 28px;
       }
 
+      .home-row { text-align: right; margin-bottom: 4px; }
+      .home-pill {
+        display: inline-block;
+        font-weight: 800;
+        font-size: 0.9rem;
+        color: var(--accent);
+        background: var(--panel);
+        border: 2px solid var(--panel-edge);
+        border-radius: 999px;
+        padding: 7px 16px;
+        text-decoration: none;
+        box-shadow: var(--shadow);
+      }
+      .home-pill:active { background: var(--bg-soft); }
+
       h1 {
         font-size: 1.7rem;
         font-weight: 900;
@@ -256,6 +271,7 @@
   </head>
   <body>
     <main>
+      <div class="home-row"><a class="home-pill" href="https://jesuslovestyler.com/">⌂ Home</a></div>
       <h1>Best Deal Calculator</h1>
       <p class="intro">Two sizes on the shelf? Enter both prices and sizes — see which one is truly cheaper per unit.</p>
 
@@ -498,5 +514,6 @@
 
       update();
     </script>
+    <script data-goatcounter="https://jesuslovestyler.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   </body>
 </html>
