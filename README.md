@@ -1,7 +1,8 @@
 # Best Deal Calculator
 
-Compare two products by price and size to see which one is really the better deal — the unit price settles it.
+A best-deal calculator: enter package sizes and prices and see which buy is really cheapest per unit — ounces, grams, sheets, whatever you're comparing at the store.
 
 **Live:** https://jesuslovestyler.github.io/Best-deal-calculator/
+**Home:** https://jesuslovestyler.com/
 
-Built with Muse artifacts.
+One self-contained page: no account, no ads, nothing to buy. Released into the public domain (Unlicense — see LICENSE). Built by Tyler with Noki.
